@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+# 🎯 FocusPilot – Your AI Productivity Co-Pilot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**FocusPilot** is a productivity and learning assistant that blends AI, habit-building psychology, and modern design to help students and self-learners plan smarter, stay focused, and achieve more.
 
-## Available Scripts
+It combines smart task prioritization, adaptive focus tracking, habit tracking, and structured learning into one seamless app.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🔥 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✅ AutoPrioritize Task Manager  
+Let AI decide what matters most.  
+- Add tasks with title, deadline, difficulty, energy level, and time estimate.  
+- AI auto-sorts and labels tasks as **Deep Work**, **Quick Win**, or **Light Focus**.  
+- Prioritize tasks smartly and plan your day with clarity.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ⏱️ FocusFlow – AI-Powered Focus Timer  
+Stay in the zone, reflect, and improve.  
+- Pomodoro-style timer with focus rating after each session.  
+- AI gives personalized focus tips based on your inputs.
 
-### `npm test`
+### 🔁 HabitForge – Smart Habit Tracker  
+Build consistency with insight and streaks.  
+- Track daily/weekly habits and view streaks.  
+- Motivational AI nudges and habit suggestions based on behavior.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📚 LearnStack – Learning Tracker  
+Track your learning goals like a roadmap.  
+- Define what you want to learn (e.g. “Learn JavaScript”).  
+- AI breaks it into manageable phases (Basics → Intermediate → Projects).  
+- Kanban board to track learning: **To Learn → Learning → Done**.  
+- Curated learning resources recommended by AI.
 
-### `npm run build`
+### 📊 Personalized Dashboard  
+See everything at a glance.  
+- Daily focus suggestion, habit reminders, and your top task.  
+- Weekly summary with progress charts and AI insights.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧠 Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Tech | Usage |
+|------|-------|
+| **React** | Frontend |
+| **Firebase Auth & Firestore** | Authentication & Real-time Database |
+| **OpenAI API** | AI features: task labeling, feedback, roadmap breakdown |
+| **Tailwind CSS** | Styling |
+| **Framer Motion** | Animations & UI transitions |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🖼️ Screenshots (Coming Soon)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Setup Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/focuspilot.git
+cd focuspilot
+````
 
-## Learn More
+### 2. Install Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 3. Configure Environment Variables
 
-### Code Splitting
+Create a `.env` file in the root and add your keys:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+VITE_FIREBASE_API_KEY=...
+VITE_FIREBASE_AUTH_DOMAIN=...
+VITE_FIREBASE_PROJECT_ID=...
+VITE_OPENAI_API_KEY=sk-...
+```
 
-### Analyzing the Bundle Size
+### 4. Run the App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run dev
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🧠 How AI is Used
 
-### Advanced Configuration
+* **AutoPrioritize**: Task analysis and priority labeling.
+* **FocusFlow**: Feedback and personalized focus tips.
+* **LearnStack**: Learning goal breakdown into steps and resources.
+* **HabitForge**: Motivation and consistency suggestions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🌟 Future Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Dark mode
+* Gamified XP & levels
+* Goal reminders with smart rescheduling
+* Team learning mode or shared stacks
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📄 License
+
+MIT License © 2025 Prem Kumar. V
+
+---
+
+## 🙌 Contributions
+
+Pull requests and feedback are welcome. If you have ideas to improve FocusPilot, feel free to open an issue or PR.
+
+---
+
+## ✉️ Contact
+
+Feel free to connect:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/premkumar-25-8055p/)
+[![Twitter](https://img.shields.io/badge/Twitter-black?style=for-the-badge\&logo=twitter)](https://twitter.com/PremKumar253)
+
+---
+
+> Built with ❤️ by [Prem Kumar](https://github.com/premkumar-epic)
+
