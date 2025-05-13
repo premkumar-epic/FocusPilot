@@ -3,14 +3,16 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCu0447Zh5eT22_nx80rprzD6HKMPYUMro",
-  authDomain: "epic-ee0e2.firebaseapp.com",
-  projectId: "epic-ee0e2",
-  storageBucket: "epic-ee0e2.firebasestorage.app",
-  messagingSenderId: "991949167336",
-  appId: "1:991949167336:web:6af627577bcd3e8710875d",
-  measurementId: "G-LGLWX85CV6"
+  
+
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
+
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
